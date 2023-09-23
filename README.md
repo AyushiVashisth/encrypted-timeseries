@@ -4,7 +4,7 @@
 <br/>
 <h3 align="justify" width="80%">
 
-Build a backend application in Node.js or Go that generates encrypted data streams with 49-499 messages, validates data integrity, and stores it as time-series data in MongoDB. Create a real-time frontend to display data and success rates. Ensure proper error handling, Git commits, optional testing, and Dockerization for bonus points. 
+Build a backend application in Node.js or Go that generates encrypted data streams with 49-499 messages, validates data integrity, and stores it as time-series data in MongoDB. Create a real-time frontend to display data and success rates. Ensure proper error handling, Git commits, optional testing, and Dockerization for bonus points. [Link](https://github.com/syook/encrypted-timeseries/tree/main)
 
  <div align="center">
   <h2>Live Demo 👉 <a href="https://encrtpted-timeseries-frontend.vercel.app/">Click here</a></h2>
