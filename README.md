@@ -21,13 +21,14 @@ Build a backend application in Node.js or Go that generates encrypted data strea
  <div align="center"><h3 align="center">Frontend</h3>
 <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" align="center" alt="html5">
    <img src ="https://img.shields.io/badge/tailwindcss-%23323330.svg?style=for-the-badge&logo=tailwindcss&logoColor=green" align="center" alt="tailwind">
+ </div>
 <br/>
+<div>
    <p align="center">
   <b>Backend</b><br>
   <img src="https://img.shields.io/badge/expressjs-%777BB4.svg?style=for-the-badge&logo=express.js&logoColor=white" alt="express">
   <img src="https://img.shields.io/badge/mongoose-%2300f.svg?style=for-the-badge&logo=mongoose&logoColor=white" alt="mongoose">
 </p>
-<br/>
 </div>
 
  <div align="center"><h3 align="center">Tools</h3> 
@@ -46,8 +47,14 @@ Build a backend application in Node.js or Go that generates encrypted data strea
   <img src="https://img.shields.io/badge/cyclic-5458F6?style=for-the-badge&logo=cyclic&logoColor=white" alt="cyclic" />
 </div>
 </p>
+<h2 align="center">
+<img src="https://art.pixilart.com/486745d4bb1ef18.gif"  width="20" height="20" align="center">
+Some Important Points:
+<img src="https://art.pixilart.com/486745d4bb1ef18.gif"  width="20" height="20" align="center">
+</h2>
 
-**Backend Services (Emitter and Listener):**
+### Backend Services (Emitter and Listener):
+
 1. **Data Encryption:** Use a secure encryption algorithm like AES-256-CTR for encrypting the data. Ensure that the encryption keys are kept secret and are managed securely.
 2. **Socket Communication:** Implement robust socket communication between the Emitter and Listener services. Handle socket disconnections and errors gracefully.
 3. **Data Validation:** Validate the integrity of incoming data using the `secret_key` before processing it. Discard any data with compromised integrity to maintain data security.
@@ -55,10 +62,13 @@ Build a backend application in Node.js or Go that generates encrypted data strea
 5. **Error Handling:** Implement error handling in both services to prevent crashes and provide informative error messages. Log errors for debugging purposes.
 6. **Real-time Data Processing:** Ensure that the Listener service processes data in real time and saves it to the database with the correct timestamps.
 
-**Frontend:**
-7. **Real-time Display:** Build a responsive frontend that can display data in real time as it arrives from the Listener service.
-8. **User Interface:** Create a user-friendly interface to visualize the data. Consider using charts or tables to display the time-series data.
-9. **Success Rate Calculation:** Implement logic to calculate and display the success rate for data transmission and decoding. This can be based on the number of valid messages received compared to the total number sent.
+### Frontend:
+
+1. **Real-time Display:** Build a responsive frontend that can display data in real-time as it arrives from the Listener service.
+2. **User Interface:** Create a user-friendly interface to visualize the data. Consider using charts or tables to display the time-series data.
+3. **Success Rate Calculation:** Implement logic to calculate and display the success rate for data transmission and decoding. This can be based on the number of valid messages received compared to the total number sent.
+
+</div>
 
 <br/>
 
@@ -84,36 +94,29 @@ To run the Node.js project, follow these steps:
 
 ### This report is provided by the GitHub language used stats. So, this is the total percentage of the coding languages.
 
-<br/><br/>
-
+<br/>
 # Installing :
 
 1. Clone the repository to your local machine
 2. Navigate to the project directory
 3. Run `npm install` to install the required dependencies
 
-<br/><br/>
-
+<br/>
 ### An individual project, completed in a duration of 2 days.
 
-<br/><br/>
-
+<br/>
 # Our Learnings : 
 On this journey, we faced many issues, but we kept motivated each other with patience. 
 - We learned how to write more efficient and clean code.
 - Even though  We also learned how to plan a project and how to execute it step by step.
 - Through this Project, we have learned  to effectively improve productivity.
 - We also got a glimpse of using GitHub for version control.
-<br/><br/>
-
-# Contributing
-
-### We welcome contributions to the Encrypted TimeSeries. If you have an idea for a new feature or have found a bug, please open an issue in the repository.
-
 <br/>
 
-## Show your support
+# Contributing
+### We welcome contributions to the Encrypted TimeSeries. If you have an idea for a new feature or have found a bug, please open an issue in the repository.
 
+## Show your support
 Give a ⭐️ if you like this project!
 
 <h1 align="center">✨Thank You✨</h1>
