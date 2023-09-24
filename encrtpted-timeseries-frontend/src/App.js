@@ -20,7 +20,7 @@ const App = () => {
   useEffect(() => {
     // Event listeners for WebSocket connections
     const handleMsg = (data) => {
-      console.log(data);
+      // console.log(data);
       console.log("Connected to WebSocket");
     };
 
