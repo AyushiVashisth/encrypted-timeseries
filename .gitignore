@@ -1,2 +1,5 @@
+# The ".env" file contains environment configuration variables
 .env
+
+# The "node_modules" directory contains installed Node.js modules and packages
 node_modules
